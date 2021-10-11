@@ -1,0 +1,188 @@
+@font-face {
+    font-family: apple;
+    src: url(fonts/apple.tff);
+  }
+  
+  @font-face {
+    font-family: heavy;
+    src: url(fonts/heavy.tff);
+  }
+  
+  body,
+  html {
+    margin: 0px;
+    padding: 0;
+    font-family: helvetica;
+    background-color: #212120;
+    color: #fff;
+    overflow-x: hidden;
+  }
+   nav {
+    background-color: #141414;
+    width:100vw;
+    height: 80px;
+    position: fixed;
+  }
+    .nav h1{
+    float: left;
+    position: fixed;
+    font-size: 25px;
+    margin-left: -50px;
+    margin-top: -60px;
+    color: #FFF;
+  }
+  .logo {
+    padding: 1vh 1vw;
+    text-align: center;
+  }
+    .logo img{
+        margin-left: 5px;
+        height: 65px;
+        width: 65px;
+        border-radius: 50px;
+        float: left;
+    }
+    @supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+  .na a:hover {
+  color: #6e6e6e;
+  }
+  .na a {
+  font-size: 37px;
+  text-decoration:none;
+  color: #FFF;
+  opacity: 100;
+  }
+  .na h23 {
+  color: #242628;
+  }
+  .taskbar {
+  opacity: 0;
+  }
+  @supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+  .na {
+    font-family: bootstrap-icons;
+    justify-content: center;
+    position: static;
+    bottom: 0px;
+    z-index: 99;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    left: 13.7%;
+    width: 65%;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+}
+  .nall {
+    font-family: bootstrap-icons;
+    position: static;
+    bottom: 0px;
+    left: 13.5%;
+    z-index: 99;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    margin-bottom: 12px;
+    width: 65%;
+    opacity: 50;
+    background: #141414;
+    border-radius: 20px;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+}
+.slider {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 120%;
+  }  
+.card {
+    flex-shrink: 0;
+    background-color: #141414;
+    width: 280px;
+    height: 230px;
+    border-radius: 12px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .card img {
+    width: 280px;
+    border-radius: 10px     10px      0           0;
+    height: 180px;
+  }
+  
+  @supports (
+    (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+  ) {
+    .blur-bg {
+      position: relative;
+      bottom: 60px;
+      padding: 5px;
+      width: 270px;
+      background: rgba(0, 0, 0, 0.6);
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      backdrop-filter: saturate(180%) blur(20px);
+    }
+  }
+  
+  .card h2 {
+    margin-top: 10px;
+    color: #FFF;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+  }
+}
+.slid {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+  }  
+.card2 {
+    padding: 10px;
+    flex-shrink: 0;
+    width: 280px;
+    height: 155px;
+    display: block;
+  }
+  
+  .card2 img {
+    width: 280px;
+    border-radius: 10px;
+    height: 150px;
+  }
+  
+  @supports (
+    (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+  ) {
+    .blur-bg {
+      position: relative;
+      bottom: 60px;
+      padding: 5px;
+      width: 60px;
+      background: rgba(0, 0, 0, 0.6);
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      backdrop-filter: saturate(180%) blur(20px);
+    }
+  }
+  
+  .card2 h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
